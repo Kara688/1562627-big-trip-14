@@ -1,8 +1,7 @@
 # Проект «Большое путешествие»
 
 * Студент: [Karina Смирнова](https://up.htmlacademy.ru/ecmascript/14/user/1562627).
-* Наставник: [Алексей Балесный](https://htmlacademy.ru/profile/id221665).
-
+* Наставник:[Алексей Балесный](https://htmlacademy.ru/profile/id221665).
 ---
 
 _Не удаляйте и не изменяйте папки и файлы:_
