@@ -43,5 +43,3 @@ for (let i = 0; i < WAY_POINT ; i++) {
 renderIt(content,createEditForm(),'beforeend');
 
 
-
-
