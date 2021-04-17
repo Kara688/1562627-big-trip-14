@@ -10,10 +10,10 @@ import { container } from 'webpack';
 
 
 const renderIt = (container, template, place) => {
-  container.insertAdjacentHTML(place, template);
+  container.insertAdjacentHTML(place, template);W
 };
 
-
+const WAY_POINT = 3;
 
 const mainElement = document.querySelector('.trip-main');
 
@@ -32,13 +32,9 @@ renderIt(sortingContainer,createSorting (),'afterbegin');
 const content = document.querySelector('.trip-events__list');
 renderIt(content, createCreatorForm(),'beforeend');
 
-const renderItPoint = (container, card, items, place = 'beforeend') => {
-  for (let i = 1; i <= items; i++) {
-    renderIt(container, card, place);
-  };
-
-};
-
+for (let i = 0; i < WAY_POINT ; i++) {
+  renderIt(content, createWayPoint(), 'beforeend');
+}
 
 
 renderIt(content,createEditForm(),'beforeend');
