@@ -6,7 +6,7 @@ import{createSorting} from './view/sorting.js';
 import{createCreatorForm} from './view/creator-form.js';
 import{createEditForm} from './view/edit-form.js';
 import{createWayPoint} from './view/waypoint.js';
-import { container } from 'webpack';
+
 
 
 const renderIt = (container, template, place) => {
