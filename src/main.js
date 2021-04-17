@@ -10,7 +10,7 @@ import { container } from 'webpack';
 
 
 const renderIt = (container, template, place) => {
-  container.insertAdjacentHTML(place, template);W
+  container.insertAdjacentHTML(place, template);
 };
 
 const WAY_POINT = 3;
@@ -33,7 +33,7 @@ const content = document.querySelector('.trip-events__list');
 renderIt(content, createCreatorForm(),'beforeend');
 
 
-p
+
 
 for (let i = 0; i < WAY_POINT ; i++) {
   renderIt(content, createWayPoint(), 'beforeend');
