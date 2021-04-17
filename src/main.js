@@ -32,6 +32,9 @@ renderIt(sortingContainer,createSorting (),'afterbegin');
 const content = document.querySelector('.trip-events__list');
 renderIt(content, createCreatorForm(),'beforeend');
 
+
+p
+
 for (let i = 0; i < WAY_POINT ; i++) {
   renderIt(content, createWayPoint(), 'beforeend');
 }
